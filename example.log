@@ -1,0 +1,352 @@
+2024-03-17 13:03:13,335 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\PycharmProjects\yuanshen\main.py", line 74, in <module>
+    run()
+  File "D:\PycharmProjects\yuanshen\main.py", line 34, in run
+    observation_, reward, done = env.step(action)
+  File "D:\PycharmProjects\yuanshen\Genshin_Impact.py", line 40, in step
+    target_HP = get_HP_E(raw_image)
+  File "D:\PycharmProjects\yuanshen\util.py", line 75, in get_HP_E
+    img_roi = roi(img, x=723, x_w=1195, y=87, y_h=88)
+  File "D:\PycharmProjects\yuanshen\util.py", line 71, in roi
+    return image[y:y_h, x:x_w]
+TypeError: 'Image' object is not subscriptable
+2024-03-17 14:13:03,878 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 75, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 34, in run
+    observation_, reward, done = env.step(action)
+ValueError: too many values to unpack (expected 3)
+2024-03-17 14:15:54,188 - ERROR - 394278
+2024-03-17 14:16:14,875 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 76, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 34, in run
+    observation_, reward, done = env.step(action)
+ValueError: too many values to unpack (expected 3)
+2024-03-17 14:17:34,026 - ERROR - 394278
+2024-03-17 14:17:54,751 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 76, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 34, in run
+    observation_, reward, done = env.step(action)
+ValueError: too many values to unpack (expected 3)
+2024-03-17 14:19:54,959 - ERROR - 394278
+2024-03-19 13:39:52,806 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 60, in <module>
+    env = GenshinImpact()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 16, in __init__
+    self.stamina_model = torch.load("stamina.pkl")
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1431, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'cnn' on <module '__main__' from 'D:\\myProject\\yuanshen\\main.py'>
+2024-03-19 13:40:12,309 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 60, in <module>
+    env = GenshinImpact()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 16, in __init__
+    self.stamina_model = torch.load("stamina.pkl")
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1431, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'cnn' on <module '__main__' from 'D:\\myProject\\yuanshen\\main.py'>
+2024-03-19 13:40:37,733 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 60, in <module>
+    env = GenshinImpact()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 16, in __init__
+    self.stamina_model = torch.load("stamina.pkl")
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1431, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'cnn' on <module '__main__' from 'D:\\myProject\\yuanshen\\main.py'>
+2024-03-19 13:46:42,822 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 60, in <module>
+    env = GenshinImpact()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 16, in __init__
+    self.stamina_model = torch.load("stamina.pkl")
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 1431, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'cnn' on <module '__main__' from 'D:\\myProject\\yuanshen\\main.py'>
+2024-03-19 13:47:53,432 - ERROR - 1902064
+2024-03-19 13:48:16,312 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 76, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 26, in run
+    observation = env.reset()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 68, in reset
+    screen.append(get_screen()[0])
+  File "D:\myProject\yuanshen\util.py", line 35, in get_screen
+    if cls.size()!=0 and conf[0] > 0.3:
+AttributeError: 'list' object has no attribute 'size'
+2024-03-19 13:50:12,636 - ERROR - 1902064
+2024-03-19 16:13:30,320 - ERROR - 132614
+2024-03-19 16:14:36,165 - ERROR - 132614
+2024-03-19 16:22:42,785 - ERROR - 132614
+2024-03-19 17:09:41,773 - ERROR - 197568
+2024-03-19 17:10:01,604 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 26, in run
+    observation = env.reset()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 83, in reset
+    screen.append(get_screen()[0])
+  File "D:\myProject\yuanshen\util.py", line 39, in get_screen
+    print("x:"+x)
+TypeError: can only concatenate str (not "int") to str
+2024-03-19 17:10:55,676 - ERROR - 197568
+2024-03-19 17:11:15,503 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 26, in run
+    observation = env.reset()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 83, in reset
+    screen.append(get_screen()[0])
+  File "D:\myProject\yuanshen\util.py", line 39, in get_screen
+    print("x:"+x)
+TypeError: can only concatenate str (not "int") to str
+2024-03-19 17:12:41,710 - ERROR - 197568
+2024-03-19 17:15:42,673 - ERROR - 197568
+2024-03-19 18:17:16,634 - ERROR - 197568
+2024-03-19 18:17:40,038 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 36, in run
+    _,_,observation_, reward, done = env.step(action)
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 57, in step
+    ctypes.windll.user32.mouse_event(MOUSEEVENTF_MOVE, 960-x_, 540-y_, 0, 0)
+ctypes.ArgumentError: argument 2: TypeError: Don't know how to convert parameter 2
+2024-03-19 19:05:58,559 - ERROR - 197568
+2024-03-19 19:28:02,071 - ERROR - 197568
+2024-03-19 19:32:36,195 - ERROR - 197568
+2024-03-19 19:48:01,745 - ERROR - 328638
+2024-03-19 19:52:53,917 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 43, in run
+    model.learn()
+  File "D:\myProject\yuanshen\dqn_model.py", line 182, in learn
+    q_target[batch_index, eval_act_index] = torch.FloatTensor(reward).cuda() + self.gamma * q_next.max(dim=1).values
+NameError: name 'q_next' is not defined
+2024-03-19 19:58:52,831 - ERROR - 328638
+2024-03-19 20:04:25,601 - ERROR - 328638
+2024-03-19 20:15:50,782 - ERROR - 328638
+2024-03-19 20:18:54,487 - ERROR - 328638
+2024-03-19 20:19:17,342 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 26, in run
+    observation = env.reset()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 70, in reset
+    screen.append(get_screen()[0])
+  File "D:\myProject\yuanshen\util.py", line 58, in get_screen
+    move_mouse_to_relative(x_, y_)
+  File "D:\myProject\yuanshen\util.py", line 375, in move_mouse_to_relative
+    mouse_event(MOUSEEVENTF_MOVE, (absolute_x-target_x)*0.6, (absolute_y-target_y)*0.6, 0, 0)
+  File "D:\myProject\yuanshen\util.py", line 344, in mouse_event
+    ctypes.windll.user32.mouse_event(dwFlags, dx, dy, dwData, dwExtraInfo)
+ctypes.ArgumentError: argument 2: TypeError: Don't know how to convert parameter 2
+2024-03-19 20:21:25,928 - ERROR - 328638
+2024-03-19 20:23:02,626 - ERROR - 328638
+2024-03-19 20:24:45,041 - ERROR - 328638
+2024-03-19 20:29:46,224 - ERROR - 328638
+2024-03-19 20:32:49,560 - ERROR - 328638
+2024-03-19 20:35:28,692 - ERROR - 328638
+2024-03-19 20:40:27,997 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 33, in run
+    action = model.choose_action(observation)
+  File "D:\myProject\yuanshen\dqn_model.py", line 146, in choose_action
+    actions_value = self.eval_net(s)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\myProject\yuanshen\dqn_model.py", line 66, in forward
+    batch_norm_out = self.batch_norm(flat1)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\batchnorm.py", line 175, in forward
+    return F.batch_norm(
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\functional.py", line 2480, in batch_norm
+    _verify_batch_size(input.size())
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\functional.py", line 2448, in _verify_batch_size
+    raise ValueError(f"Expected more than 1 value per channel when training, got input size {size}")
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+2024-03-19 20:45:17,665 - ERROR - 328638
+2024-03-19 20:50:10,402 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 78, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 33, in run
+    action = model.choose_action(observation)
+  File "D:\myProject\yuanshen\dqn_model.py", line 146, in choose_action
+    actions_value = self.eval_net(s)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\myProject\yuanshen\dqn_model.py", line 66, in forward
+    batch_norm_out = self.batch_norm(flat1)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\batchnorm.py", line 175, in forward
+    return F.batch_norm(
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\functional.py", line 2480, in batch_norm
+    _verify_batch_size(input.size())
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\functional.py", line 2448, in _verify_batch_size
+    raise ValueError(f"Expected more than 1 value per channel when training, got input size {size}")
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+2024-03-19 21:05:27,950 - ERROR - 328638
+2024-03-19 21:09:56,397 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 82, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 36, in run
+    action = model.choose_action(observation)
+  File "D:\myProject\yuanshen\dqn_model.py", line 146, in choose_action
+    actions_value = self.eval_net(s)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\myProject\yuanshen\dqn_model.py", line 66, in forward
+    batch_norm_out = self.batch_norm(flat1)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\modules\batchnorm.py", line 175, in forward
+    return F.batch_norm(
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\functional.py", line 2480, in batch_norm
+    _verify_batch_size(input.size())
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\nn\functional.py", line 2448, in _verify_batch_size
+    raise ValueError(f"Expected more than 1 value per channel when training, got input size {size}")
+ValueError: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+2024-03-19 21:15:13,398 - ERROR - 328638
+2024-03-19 21:19:39,003 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 82, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 36, in run
+    action = model.choose_action(observation)
+  File "D:\myProject\yuanshen\dqn_model.py", line 147, in choose_action
+    action = [np.argmax(actions_value.detach().numpy())][0]
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+2024-03-19 22:01:32,102 - ERROR - 328638
+2024-03-19 22:28:25,728 - ERROR - 2033020
+2024-03-19 22:32:27,794 - ERROR - 2033020
+2024-03-19 22:35:03,139 - ERROR - 2033020
+2024-03-19 23:11:41,125 - ERROR - 2033020
+2024-03-19 23:19:34,778 - ERROR - 2033020
+2024-03-19 23:22:49,549 - ERROR - 2033020
+2024-03-19 23:25:08,448 - ERROR - 2033020
+2024-03-19 23:48:13,586 - ERROR - 2033020
+2024-03-19 23:51:57,653 - ERROR - 3146954
+2024-03-19 23:53:18,373 - ERROR - 3146954
+2024-03-19 23:56:16,007 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 84, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 29, in run
+    observation = env.reset()
+  File "D:\myProject\yuanshen\Genshin_Impact.py", line 88, in reset
+    screen.append(get_screen()[0])
+  File "D:\myProject\yuanshen\util.py", line 33, in get_screen
+    screenshot = pyautogui.screenshot()
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\pyscreeze\__init__.py", line 538, in _screenshot_win32
+    im = ImageGrab.grab(all_screens=allScreens)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\PIL\ImageGrab.py", line 48, in grab
+    offset, size, data = Image.core.grabscreen_win32(
+OSError: screen grab failed
+2024-03-20 08:12:12,723 - ERROR - 263250
+2024-03-20 08:13:07,226 - ERROR - 263250
+2024-03-20 08:39:56,747 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 84, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 58, in run
+    torch.save(model.eval_net.state_dict(), "mymodel\\"+str(episode)+"_model.pth")
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\ultralytics\utils\patches.py", line 87, in torch_save
+    raise e
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\ultralytics\utils\patches.py", line 84, in torch_save
+    return _torch_save(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 628, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 502, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 473, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory mymodel does not exist.
+2024-03-20 08:42:06,539 - ERROR - 263250
+2024-03-20 09:45:37,725 - ERROR - 263250
+2024-03-20 10:42:33,028 - ERROR - 263250
+2024-03-20 11:09:40,193 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 84, in <module>
+    run()
+  File "D:\myProject\yuanshen\main.py", line 58, in run
+    torch.save(model.eval_net.state_dict(), "mymodel\\"+str(episode)+"_model.pth")
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\ultralytics\utils\patches.py", line 87, in torch_save
+    raise e
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\ultralytics\utils\patches.py", line 84, in torch_save
+    return _torch_save(*args, **kwargs)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 628, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 502, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "D:\app\miniconda3\envs\dqn_cuda\lib\site-packages\torch\serialization.py", line 473, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory mymodel does not exist.
+2024-03-20 11:18:33,470 - ERROR - 263250
+2024-03-20 13:00:31,339 - ERROR - 263250
+2024-03-20 13:06:14,166 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 94, in <module>
+    win32api.ShellExecute(None, "runas", sys.executable, __file__, None, 1)
+pywintypes.error: (5, 'ShellExecute', '拒绝访问。')
+2024-03-20 13:07:49,571 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 94, in <module>
+    win32api.ShellExecute(None, "runas", sys.executable, __file__, None, 1)
+pywintypes.error: (5, 'ShellExecute', '拒绝访问。')
+2024-03-20 13:09:51,609 - ERROR - 263250
+2024-03-20 13:16:24,727 - ERROR - 未捕获的异常:
+Traceback (most recent call last):
+  File "D:\myProject\yuanshen\main.py", line 94, in <module>
+    win32api.ShellExecute(None, "runas", sys.executable, __file__, None, 1)
+pywintypes.error: (5, 'ShellExecute', '拒绝访问。')
+2024-03-20 13:17:09,915 - ERROR - 263250
+2024-03-20 18:25:37,039 - ERROR - 263250
+2024-03-20 18:28:32,261 - ERROR - 263250
